@@ -1,0 +1,48 @@
+{
+  "name": "structure-anal-cli",
+  "version": "1.0.0",
+  "description": "A small command-line utility for analysis of fields in JSON-like data structures.",
+  "author": "sebimoe <sebi@sebi.moe>",
+  "license": "MIT",
+  "homepage": "https://github.com/sebimoe/structure-anal-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebimoe/structure-anal-cli.git"
+  },
+  "bin": {
+    "structure-anal": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist types"
+  },
+  "main": "dist/cli.js",
+  "types": "types/cli.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "json",
+    "object",
+    "structure",
+    "analysis",
+    "analyser",
+    "analyzer",
+    "anal",
+    "inspect",
+    "inspection",
+    "listing",
+    "summary",
+    "cli"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "readline": "^1.3.0",
+    "structure-anal": "^1.0.1"
+  }
+}
